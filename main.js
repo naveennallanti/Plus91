@@ -13,8 +13,8 @@ let window;
 
 function createWindow() {
     window = new BrowserWindow({
-        height:1600,
-        width:1400
+        height:1400,
+        width:1600
     });
     window.loadURL(url.format({
         pathname: path.join(__dirname, 'Renderers/index.html'),
