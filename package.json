@@ -1,0 +1,11 @@
+{
+    "name": "Plus91",
+    "version": "1.0.0",
+    "main": "main.js",
+    "dependencies": {
+        "electron": "^4.1.0"
+    },
+    "scripts": {
+        "start": "electron ."
+    }
+}
