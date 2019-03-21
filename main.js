@@ -17,7 +17,7 @@ function createWindow() {
         width:1400
     });
     window.loadURL(url.format({
-        pathname: path.join(__dirname, 'index.html'),
+        pathname: path.join(__dirname, 'Renderers/index.html'),
         protocol: 'file',
         slashes: true
     }));
